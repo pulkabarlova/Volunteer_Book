@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_frag"
+        android:title="Профиль"  android:icon="@drawable/ic_account_circle" />
+    <item
+        android:id="@+id/main_frag"
+        android:title="Главная" android:icon="@drawable/ic_home" />
+    <item
+        android:id="@+id/blankFragment"
+        android:title="Добавить" android:icon="@android:drawable/ic_menu_add"/>
+
+</menu>

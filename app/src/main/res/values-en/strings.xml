@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_as_org">Sign in as organizator</string>
+    <string name="sign_in_as_vol">Sign in as volunteer</string>
+    <string name="email">Enter email</string>
+    <string name="password">Enter password</string>
+    <string name="mp_name">Enter event name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_mp_descr">Enter short description:</string>
+    <string name="hours">Hours:</string>
+    <string name="enter_descr">Enter description</string>
+    <string name="share_mp">Share event</string>
+</resources>

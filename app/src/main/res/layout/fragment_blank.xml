@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorOnPrimary"
+    >
+
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="?colorPrimary"
+                android:hint="Название мароприятия">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventnameinput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boarder"
+                    android:layout_marginTop="30dp"
+                    android:textColor="?colorPrimary"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="?colorPrimary"
+                android:hint="Описание">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventdescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boarder"
+                    android:layout_marginTop="20dp"
+                    android:textColor="?colorPrimary"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textField3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColorHint="?colorPrimary"
+                android:hint="ЧАСЫ">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/eventhours"
+                    android:layout_width="100dp"
+                     android:layout_marginTop="20dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/boarder"
+                    android:textColor="?colorPrimary"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/create_event"
+                android:layout_width="250dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="normal"
+                android:background="@drawable/button"
+                android:text="ОПУБЛИКОВАТЬ"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/password_space"
+                app:layout_constraintVertical_bias="0.163" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

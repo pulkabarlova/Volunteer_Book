@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="100dp"
+    android:id="@+id/dialoduefon"
+    android:background="@drawable/corners"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/grey"
+        android:text="Вы уверены что хотите опубликовать данное мероприятие?" />
+
+    <Button
+        android:id="@+id/button_yes_publish"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:text="ДА"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#393939"
+        android:textColorHint="#6A6A6A"
+        android:textColorLink="#424242"
+        android:textSize="8sp"
+        android:layout_marginLeft="200dp"
+        app:iconTint="#858585"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.013"
+        />
+</LinearLayout>

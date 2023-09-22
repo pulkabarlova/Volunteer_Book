@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VolunteerBook" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#5A73DB</item>
+        <item name="colorOnPrimary">#FCFBF7</item>
+        <item name="textFillColor">#979797</item>
+    </style>
+</resources>
